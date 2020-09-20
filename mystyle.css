@@ -1,0 +1,46 @@
+
+body {
+	background-color:transparent;
+	overflow:hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.menu {
+  width: 20%;
+  background-color: #eaffff;
+}
+
+.menu a {
+  background-color: #eaffff;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #99ccff;
+  color: darkblue;
+}
+
+.menu a.active {
+  background-color: #33ccff;
+  color: white;
+}
+.right {
+  width: 80%;
+}
+
+.home:after {
+  content: "";
+  display: table;
+  clear: both;
+}
